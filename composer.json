@@ -11,7 +11,10 @@
     "require": {
         "slim/slim": "^4.11",
         "slim/http": "^0.4.0",
-        "slim/psr7": "^1.6"
+        "slim/psr7": "^1.6",
+      "ext-json": "*",
+        "ext-dom": "*",
+        "ext-libxml": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "*",
